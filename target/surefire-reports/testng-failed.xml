@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.sumerge.training.tests.InVaildLoginTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sumerge.training.tests.InVaildLoginTest -->
+      <class name="com.sumerge.training.tests.ValidLoginTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="signIn" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sumerge.training.tests.ValidLoginTest -->
+      <class name="com.sumerge.training.tests.ValidSignUpTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="signUpRegister" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sumerge.training.tests.ValidSignUpTest -->
+      <class name="com.sumerge.training.tests.CartValidationTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sumerge.training.tests.CartValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
